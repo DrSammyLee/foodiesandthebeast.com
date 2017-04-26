@@ -2,8 +2,6 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-your_server_hostname
 35.185.178.244
 [web]
-your_server_hostname
 35.185.178.244
