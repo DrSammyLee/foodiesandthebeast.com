@@ -1,6 +1,6 @@
 .vault_pass
 .vagrant
+.vault_pass.txt
 vendor/roles
 *.py[co]
 *.retry
-.vault_pass.txt
