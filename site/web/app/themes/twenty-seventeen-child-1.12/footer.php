@@ -37,7 +37,7 @@
 
 // To customize the footer text, comment out the next line and add your custom code.
 // get_template_part( 'template-parts/footer/site', 'info' );?>
-<p style="margin: 10px 0; text-align: right;">Proudly powered by <a href="https://wordpress.org">WordPress</a> and developed by <a href="https://jonpenland.com">Jon Penland</a>.</p>
+<p style="margin: 10px 0; text-align: right;">© 2017 Foodies and the Beast | A Food Blog	</a>.</p>
 
 
 			</div><!-- .wrap -->
