@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3d37a18a274e47266645682e0408a5b",
+    "content-hash": "0f9c887756ee2b5a44ad94d3e48aede1",
     "packages": [
         {
             "name": "composer/installers",
@@ -430,16 +430,16 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.9",
+            "version": "5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.9"
+                "reference": "tags/5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.9.zip",
-                "reference": "tags/4.9",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.5.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -450,24 +450,23 @@
         },
         {
             "name": "wpackagist-plugin/pods",
-            "version": "dev-trunk",
+            "version": "2.6.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pods/",
-                "reference": "trunk"
+                "reference": "tags/2.6.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pods.zip?timestamp=1484870600",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/pods.2.6.9.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/pods/",
-            "time": "2017-01-20T00:03:20+00:00"
+            "homepage": "https://wordpress.org/plugins/pods/"
         },
         {
             "name": "wpackagist-plugin/updraftplus",
@@ -571,10 +570,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
-        "wpackagist-plugin/akismet": 20,
-        "wpackagist-plugin/pods": 20
+        "wpackagist-plugin/akismet": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
