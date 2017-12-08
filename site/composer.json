@@ -42,10 +42,10 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/updraftplus": "^1.12.40",
-    "wpackagist-plugin/akismet": "dev-trunk",
+    "wpackagist-plugin/akismet": "^4.0.1",
     "wpackagist-plugin/pods": "^2.6.9",
     "wpackagist-plugin/jetpack": "^5.0",
-    "wpackagist-plugin/autodescription": "^2.9.2"
+    "wpackagist-plugin/autodescription": "^3.0.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
