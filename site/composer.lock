@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f9c887756ee2b5a44ad94d3e48aede1",
+    "content-hash": "84800a5151edb31570b6c70ccbba5b86",
     "packages": [
         {
             "name": "composer/installers",
@@ -392,36 +392,35 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "dev-trunk",
+            "version": "4.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "trunk"
+                "reference": "tags/4.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.zip?timestamp=1493158613",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.0.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/",
-            "time": "2017-04-25T23:16:53+00:00"
+            "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
             "name": "wpackagist-plugin/autodescription",
-            "version": "2.9.4",
+            "version": "3.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autodescription/",
-                "reference": "tags/2.9.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.2.9.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1512599902",
                 "reference": null,
                 "shasum": null
             },
@@ -574,9 +573,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "wpackagist-plugin/akismet": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
